@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF9;
+    font-family: "Sora", sans-serif;
+}
+
+.h1-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #20293A;
+    margin: 0;
+}
+
+.p-body {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #6C727F;
+    margin: 0;
+}
+
+.p-small {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #6C727F;
+    margin: 0;
+}
+
+.p-tag {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: #883AE1;
+    margin: 0;
+}
+
+#section-blog {
+    height: 100vh;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 368px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px #00000018;
+}
+
+#cactus {
+    width: auto;
+    height: 152px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+.tag {
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    background-color: #E6D6FC;
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 4px 16px 4px 16px;
+    margin: 0px 16px 0px 16px;
+}
+
+.information {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px 16px 20px 16px;
+}
+
+.profile {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 20px 16px 20px 16px;
+    border-top: solid 1px #E5EAF0;
+}
