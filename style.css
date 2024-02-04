@@ -16,7 +16,7 @@ body {
 
 .p-body {
     font-size: 0.875rem;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 22px;
     color: #6C727F;
     margin: 0;
@@ -31,7 +31,7 @@ body {
 
 .p-tag {
     font-size: 0.625rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #883AE1;
     margin: 0;
 }
@@ -50,16 +50,16 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 13px;
     overflow: hidden;
-    box-shadow: 10px 10px 30px #00000018;
+    box-shadow: 10px 10px 20px #00000010;
 }
 
 #cactus {
     width: auto;
     height: 152px;
     margin: 16px;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .tag {
